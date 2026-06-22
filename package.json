@@ -1,4 +1,6 @@
 {
+  "homepage": "https://anish-123-2006.github.io/moviefinder"
+
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -8,6 +10,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build"
+"deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^19.2.6",
